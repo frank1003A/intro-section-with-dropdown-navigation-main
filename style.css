@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap");
+
 html {
   /* 1rem = 10px */
   font-size: 62.5%;
@@ -57,7 +58,7 @@ header .logo {
 }
 
 header nav button {
-    height: 40px;
+  height: 40px;
 }
 
 header nav button,
@@ -66,7 +67,7 @@ header .top-button button {
   border: none;
 }
 
-header nav .custom-select .dropdown-button:hover > img {
+header nav .custom-select .dropdown-button:hover>img {
   transform: rotate(180deg);
 }
 
@@ -209,12 +210,12 @@ main .hero-section-image img {
 }
 
 .sr-only {
-    position: absolute;
-    left: -9999px;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-  }
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
 
 .clients {
   width: 100%;
@@ -232,7 +233,7 @@ main .hero-section-image img {
 .drawer-close {
   transform: translateX(100%);
   opacity: 0;
- visibility: hidden;
+  visibility: hidden;
 }
 
 #overlay {
@@ -253,10 +254,10 @@ aside {
   bottom: 0;
   background-color: #fff;
   right: 0;
-  width: 50%;
+  min-width: 50%;
   transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.1);
- opacity: 0;
- visibility: hidden;
+  opacity: 0;
+  visibility: hidden;
 }
 
 aside nav {
@@ -266,7 +267,7 @@ aside nav {
   align-items: flex-start;
 }
 
-aside nav > button {
+aside nav>button {
   background: none;
   border: none;
   padding: 0.5rem 1rem;
@@ -327,7 +328,7 @@ aside .custom-dropdown {
   margin-top: 1rem;
 }
 
-.custom-dropdown .dropdown-button:hover > img {
+.custom-dropdown .dropdown-button:hover>img {
   transform: rotate(180deg);
 }
 
@@ -360,12 +361,13 @@ aside .custom-dropdown {
 }
 
 @media screen and (max-width: 1200px) {
-    main .hero-section {
-        padding: 0px 3rem;
-    }
+  main .hero-section {
+    padding: 0px 3rem;
+  }
 }
 
 @media screen and (max-width: 900px) {
+
   header nav,
   header .top-button {
     display: none;
@@ -379,6 +381,7 @@ aside .custom-dropdown {
     flex-direction: column-reverse;
     min-height: 100%;
   }
+
   main section {
     width: 100%;
   }
@@ -419,25 +422,25 @@ aside .custom-dropdown {
 /*--ANIMATIONS--*/
 
 @keyframes slideLeft {
-	0% {
-		opacity: 0;
-		transform: translateX(-250px);
-	}
+  0% {
+    opacity: 0;
+    transform: translateX(-250px);
+  }
 
-	100% {
-		opacity: 1;
-		transform: translateX(0);
-	}
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
 @keyframes slideRight {
-	0% {
-		opacity: 0;
-		transform: translateX(250px);
-	}
+  0% {
+    opacity: 0;
+    transform: translateX(250px);
+  }
 
-	100% {
-		opacity: 1;
-		transform: translateX(0);
-	}
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
