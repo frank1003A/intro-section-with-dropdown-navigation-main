@@ -167,18 +167,18 @@ main .hero-section {
   animation: slideRight 1s ease 0s 1 normal forwards;
 }
 
-main .hero-section h1,
-main .hero-section h2 {
+main .hero-section h2,
+main .hero-section h3 {
   margin: 0;
 }
 
-main .hero-section h1 {
+main .hero-section h2 {
   font-size: 7rem;
   color: var(--almostBlack);
   line-height: 1;
 }
 
-main .hero-section h2 {
+main .hero-section h3 {
   color: var(--mediumGray);
   line-height: 1.6;
   font-size: 18px;
@@ -207,6 +207,14 @@ main .hero-section-image img {
 #hero-img-desktop {
   display: block;
 }
+
+.sr-only {
+    position: absolute;
+    left: -9999px;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+  }
 
 .clients {
   width: 100%;
