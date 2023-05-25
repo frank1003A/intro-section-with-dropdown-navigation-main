@@ -8,12 +8,13 @@ let overlay = document.getElementById("overlay");
 
 let dropdown = document.getElementsByClassName("custom-dropdown");
 
+let hero = document.getElementById("txt-animations")
+
 const unmountElement = (el) => {
   el.style.display = "none";
 };
 
 unmountElement(overlay)
-//drawer.classList.add("drawer-close");
 
 for (let i = 0; i < nav.children.length; i++) {
   let links = nav.children;
